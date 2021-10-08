@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile 
-    #image: devopsup/dolibarr:faurecia
+     image: islem5/projetdevops_dolibar
     ports:
       - 80:80
     volumes:
